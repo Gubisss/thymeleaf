@@ -3,9 +3,12 @@ package com.github.acnweb.thymeleaf.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.github.acnweb.thymeleaf.model.Pessoa;
 import com.github.acnweb.thymeleaf.model.SexoTipo;
 
+@Service
 public class PessoaRepositoryMockup {
 
 	// 1 Pelé M
